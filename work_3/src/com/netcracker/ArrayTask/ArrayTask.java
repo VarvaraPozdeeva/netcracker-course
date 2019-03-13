@@ -1,4 +1,4 @@
-package ArrayTask;
+package com.netcracker.ArrayTask;
 
 import java.util.Arrays;
 import java.util.Random;

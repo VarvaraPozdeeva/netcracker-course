@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="895bc649-10a5-4381-8948-c56872e5432b" name="Default Changelist" comment="" />
+    <list default="true" id="895bc649-10a5-4381-8948-c56872e5432b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/ArrayTask/ArrayTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/Factorial/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/IfElseSwitchCase/IfElseSwitchCase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/IfElseSwitchCase/IfElseSwitchCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/IfElseSwitchCase/Week.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/Loop/Loop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/META-INF/work_3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/MultidArrayTask/MultidArrayTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/work_3/Sort/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayTask/ArrayTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/netcracker/ArrayTask/ArrayTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/netcracker/Factorial/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IfElseSwitchCase/IfElseSwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/IfElseSwitchCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IfElseSwitchCase/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/Week.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/netcracker/Loop/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultidArrayTask/MultidArrayTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/netcracker/MultidArrayTask/MultidArrayTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/netcracker/Sort/Sort.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,23 +30,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IfElseSwitchCase/IfElseSwitchCase.java">
+        <entry file="file://$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/IfElseSwitchCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="99" column="46" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
+            <state relative-caret-position="1">
+              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IfElseSwitchCase/Week.java">
+        <entry file="file://$PROJECT_DIR$/src/com/netcracker/ArrayTask/ArrayTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="2380">
+              <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
               <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/Week.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -55,6 +81,9 @@
       <replace>count</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -71,19 +100,21 @@
         <option value="$PROJECT_DIR$/src/Sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/IfElseSwitchCase/Week.java" />
         <option value="$PROJECT_DIR$/src/IfElseSwitchCase/IfElseSwitchCase.java" />
+        <option value="$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/WorkWithEnum.java" />
+        <option value="$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/IfElseSwitchCase.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1015" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,6 +131,29 @@
               <item name="work_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="work_3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
               <item name="IfElseSwitchCase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -107,11 +161,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552398083444" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/институт/курсы/netcracker-course/work_1" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552497570659" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../work_1" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,7 +186,7 @@
       <module name="work_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="com.netcracker.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,18 +195,18 @@
       </method>
     </configuration>
     <configuration name="ArrayTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayTask.ArrayTask" />
+      <option name="MAIN_CLASS_NAME" value="com.netcracker.ArrayTask.ArrayTask" />
       <module name="work_3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="IfElseSwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IfElseSwitchCase.IfElseSwitchCase" />
+      <option name="MAIN_CLASS_NAME" value="com.netcracker.IfElseSwitchCase.IfElseSwitchCase" />
       <module name="work_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IfElseSwitchCase.*" />
+          <option name="PATTERN" value="com.netcracker.IfElseSwitchCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,18 +215,18 @@
       </method>
     </configuration>
     <configuration name="MultidArrayTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultidArrayTask.MultidArrayTask" />
+      <option name="MAIN_CLASS_NAME" value="com.netcracker.MultidArrayTask.MultidArrayTask" />
       <module name="work_3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Sort" />
+      <option name="MAIN_CLASS_NAME" value="com.netcracker.Sort.Sort" />
       <module name="work_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="com.netcracker.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,9 +258,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1015" height="728" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30184048" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30181542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -214,8 +269,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.088926174" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.10234899" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9248366" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.877451" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -261,39 +316,35 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/IfElseSwitchCase.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IfElseSwithCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="96" column="1" lean-forward="true" selection-start-line="2" selection-end-line="96" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayTask/ArrayTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="132" column="52" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loop/Loop.java">
+    <entry file="file://$PROJECT_DIR$/src/IfElseSwithCase.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/Loop/Loop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factorial/Factorial.java">
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/Factorial/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/Sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
@@ -303,7 +354,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultidArrayTask/MultidArrayTask.java">
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/MultidArrayTask/MultidArrayTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
@@ -313,21 +364,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IfElseSwitchCase/Week.java">
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/Week.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="119">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/ArrayTask/ArrayTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
           <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IfElseSwitchCase/IfElseSwitchCase.java">
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/WorkWithEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="99" column="46" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
+        <state relative-caret-position="646">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/IfElseSwitchCase/IfElseSwitchCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
         </state>
       </provider>
     </entry>

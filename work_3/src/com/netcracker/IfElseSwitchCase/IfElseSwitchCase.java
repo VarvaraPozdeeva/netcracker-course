@@ -1,9 +1,14 @@
-package IfElseSwitchCase;
+package com.netcracker.IfElseSwitchCase;
 
 import java.util.Random;
 
 public class IfElseSwitchCase {
     public static void main(String[] args) {
+        workWithEnum();
+        workWithArray();
+    }
+    static void workWithEnum(){
+        System.out.println("Work with enum");
         Week[] day = new Week[5];
         day[0] = Week.MONDAY;
         day[1] = Week.TUESDAY;
@@ -24,7 +29,7 @@ public class IfElseSwitchCase {
                 System.out.println("It is WEDNESDAY");
         }
         long finish = System.nanoTime() - start;
-        System.out.println(finish);
+        System.out.println("Loop time = " + finish);
 
         start = System.nanoTime();
         for(int i=0; i< 5; i++) {
@@ -37,10 +42,11 @@ public class IfElseSwitchCase {
             }
         }
         finish = System.nanoTime() - start;
-        System.out.println(finish);
+        System.out.println("Switch time = "+finish);
         System.out.println();
-
-
+    }
+    static void workWithArray(){
+        System.out.println("Work with array");
         int n=50;
         int[] buf = new int[n];
         int[] count = new int[11];
@@ -50,16 +56,16 @@ public class IfElseSwitchCase {
             System.out.print(buf[i]+" ");
         }
         System.out.println();
-        start = System.nanoTime();
+        long start = System.nanoTime();
         for(int i=0; i<n; i++){
             if(buf[i] == 0)
-               count[0]++;
+                count[0]++;
             else if(buf[i] == 1)
-               count[1]++;
+                count[1]++;
             else if(buf[i] == 2)
-               count[2]++;
+                count[2]++;
             else if(buf[i] == 3)
-               count[3]++;
+                count[3]++;
             else if(buf[i] == 4)
                 count[4]++;
             else if(buf[i] == 5)
@@ -75,11 +81,12 @@ public class IfElseSwitchCase {
             else if(buf[i] == 10)
                 count[10]++;
         }
-        finish = System.nanoTime() - start;
-        System.out.println(finish);
+        long finish = System.nanoTime() - start;
+
         for(int i=0; i< 11; i++) {
-            System.out.println("Element "+i+" passed " + count[i] + " branch");
+            System.out.println(i + " --> " +  count[i]);
         }
+        System.out.println("loop time = "+finish);
         for(int i=0; i< 11; i++){
             count[i] =0;
         }
@@ -101,11 +108,12 @@ public class IfElseSwitchCase {
             }
         }
         finish = System.nanoTime() - start;
-        System.out.println(finish);
 
         for(int i=0; i< 11; i++) {
-            System.out.println("Element "+i+" passed " + count[i] + " branch");
+            System.out.println(i + " --> " +  count[i]);
         }
+        System.out.println("Switch time = "+finish);
+        System.out.println();
     }
 }
 

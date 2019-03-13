@@ -1,4 +1,4 @@
-package Factorial;
+package com.netcracker.Factorial;
 
 public class Factorial {
 

@@ -1,4 +1,4 @@
-package MultidArrayTask;
+package com.netcracker.MultidArrayTask;
 
 import java.util.Arrays;
 import java.util.Random;
