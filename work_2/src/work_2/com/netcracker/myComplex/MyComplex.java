@@ -1,4 +1,7 @@
-package work_2;
+package work_2.com.netcracker.myComplex;
+
+import java.net.DatagramPacket;
+import java.util.Objects;
 
 public class MyComplex {
     private double real;
@@ -46,15 +49,31 @@ public class MyComplex {
         return imag != 0;
     }
 
+
     @Override
-    public boolean equals(Object obj) {
-
-        if(this == obj) return true;
-        if(obj == null || getClass() != obj.getClass()) return false;
-        MyComplex other = (MyComplex)obj;
-
-        return real==other.getReal() && imag == other.getImag();
+    public boolean equals(Object o) {
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()){
+            return false;
+        }
+        MyComplex myComplex = (MyComplex) o;
+        return Double.compare(myComplex.real, real) == 0 &&
+                Double.compare(myComplex.imag, imag) == 0;
     }
+
+    @Override
+    public int hashCode() {
+        int hashcode =17;
+        long l;
+        l = Double.doubleToLongBits(real);
+        hashcode += 31*hashcode + (int)(1^(l>>>32));
+        l = Double.doubleToLongBits(imag);
+        hashcode += 31*hashcode + (int)(1^(l>>>32));
+        return hashcode;
+    }
+
     public boolean equals(double real, double imag){
         return this.real == real && this.imag == imag;
     }

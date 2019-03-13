@@ -1,4 +1,6 @@
-package work_2;
+package work_2.com.netcracker.myPolynomial;
+
+import java.util.Arrays;
 
 public class MyPolynomial {
     private double[] coeffs;
@@ -65,5 +67,28 @@ public class MyPolynomial {
 
         res = new MyPolynomial(newCoef);
         return res;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()){
+            return false;
+        }
+        MyPolynomial that = (MyPolynomial) o;
+        return Arrays.equals(coeffs, that.coeffs);
+    }
+
+    @Override
+    public int hashCode() {
+        int hashcode =17;
+        long l;
+        for(int i=0; i<coeffs.length; i++){
+            l = Double.doubleToLongBits(coeffs[i]);
+            hashcode += 31 * hashcode + (int)(1^(l>>>32));
+        }
+        return  hashcode;
     }
 }

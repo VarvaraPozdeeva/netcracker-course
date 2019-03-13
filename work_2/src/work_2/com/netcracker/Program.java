@@ -1,4 +1,9 @@
-package work_2;
+package work_2.com.netcracker;
+
+import work_2.com.netcracker.Ball.Ball;
+import work_2.com.netcracker.Ball.Container;
+import work_2.com.netcracker.myPolynomial.MyPolynomial;
+import work_2.com.netcracker.myComplex.MyComplex;
 
 public class Program {
     public static void main(String[] args) {
@@ -31,7 +36,5 @@ public class Program {
         System.out.println("#2 += #1 --> "+complex1.add(complex));
         System.out.println(complex1 +"==" + complex2 + "-->"+ complex1.equals(complex2));
         System.out.println("#3/#1 = "+ complex2.divide(complex));
-
-
     }
 }

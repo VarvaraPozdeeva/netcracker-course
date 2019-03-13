@@ -1,4 +1,6 @@
-package work_2;
+package work_2.com.netcracker.Ball;
+
+import java.util.Objects;
 
 public class Ball {
     private float x;
@@ -71,5 +73,32 @@ public class Ball {
     public String toString() {
         return "Ball[(" + x +"," + y +
                 "), speed=(" + xDelta +", " + yDelta +")]";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()){
+            return false;
+        }
+        Ball ball = (Ball) o;
+        return Float.compare(ball.x, x) == 0 &&
+                Float.compare(ball.y, y) == 0 &&
+                radius == ball.radius &&
+                Float.compare(ball.xDelta, xDelta) == 0 &&
+                Float.compare(ball.yDelta, yDelta) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        int hashcode =17;
+        hashcode += 31*hashcode + Float.floatToIntBits(x);
+        hashcode += 31*hashcode + Float.floatToIntBits(y);
+        hashcode += 31*hashcode + Float.floatToIntBits(xDelta);
+        hashcode += 31*hashcode + Float.floatToIntBits(yDelta);
+        hashcode += 31*hashcode + radius;
+        return hashcode;
     }
 }

@@ -1,4 +1,8 @@
-package work_2;
+package work_2.com.netcracker.Ball;
+
+import work_2.com.netcracker.Ball.Ball;
+
+import java.util.Objects;
 
 public class Container {
     private int x1;
@@ -34,6 +38,31 @@ public class Container {
            (ball.getY() + radius) < y2)
             return true;
         else return false;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()){
+            return false;
+        }
+        Container container = (Container) o;
+        return x1 == container.x1 &&
+                y1 == container.y1 &&
+                x2 == container.x2 &&
+                y2 == container.y2;
+    }
+
+    @Override
+    public int hashCode() {
+        int hashcode =17;
+        hashcode += 31*hashcode + x1;
+        hashcode += 31*hashcode + x2;
+        hashcode += 31*hashcode + y1;
+        hashcode += 31*hashcode + y2;
+        return hashcode;
     }
 
     @Override
