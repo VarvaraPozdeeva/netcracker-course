@@ -1,6 +1,5 @@
 package panels;
 
-import json.ParseFromJSON;
 import model.*;
 import json.ParseToJSON;
 
@@ -32,14 +31,13 @@ public class AddPanel extends JPanel {
     }
 
 
-    public Places getPlaces() {
-        return places;
-    }
 
-    public AddPanel(List<Order> orders, OrderModel model){
+
+    public AddPanel(List<Order> orders, OrderModel model, Places places){
 
         this.orders = orders;
         this.model = model;
+        this.places = places;
         setLayout(new BorderLayout());
         initComponent();
     }
@@ -138,7 +136,6 @@ public class AddPanel extends JPanel {
         JLabel labeldestination = new JLabel("Destination");
         labeldestination.setHorizontalAlignment(JLabel.CENTER);
 
-        places = ParseFromJSON.parsePlace();
         comboBox = new JComboBox(places.getPlaces().toArray());
         destination.add(labeldestination);
         destination.add(comboBox);

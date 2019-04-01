@@ -20,7 +20,7 @@ public class AdditionalFunc {
         if(validateTextField(ln)){
             s+="Please, enter correct Last Name\n";
         }
-        if(ph.equals("+0-000-000-00-00")){
+        if(ph.equals("+0-000-000-00-00") || validatenumberFiled(ph)){
             s += "Please, enter correct phone number\n";
         }
         if(dt.equals("00.00.0000")){
@@ -31,12 +31,15 @@ public class AdditionalFunc {
 
         return s;
     }
-    private static boolean validateTextField(String s){
-        if(s.equals("") || s.matches("((([A-z]|[А-я])*)([0-9]+)(([A-z]|[А-я])*))+")){
-            return true;
-        }
-        return false;
+
+    private static boolean validatenumberFiled(String s) {
+        return !(s.matches("\\+\\d-\\d\\d\\d-\\d\\d\\d-\\d\\d-\\d\\d"));
     }
+
+    private static boolean validateTextField(String s){
+        return s.equals("") || s.matches("((([A-z]|[А-я])*)([0-9]+)(([A-z]|[А-я])*))+");
+    }
+
     private static String validateDate(String s){
         String answer = "";
         String nowDate = new SimpleDateFormat("yyyyMMdd").format(Calendar.getInstance().getTime());
@@ -79,4 +82,5 @@ public class AdditionalFunc {
         }
         return null;
     }
+
 }

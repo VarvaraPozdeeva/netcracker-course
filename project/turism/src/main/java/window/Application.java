@@ -3,6 +3,7 @@ package window;
 import model.Order;
 import model.OrderModel;
 import json.ParseFromJSON;
+import model.Places;
 import panels.*;
 
 import javax.swing.*;
@@ -15,11 +16,14 @@ public class Application extends JFrame {
 
     private OrderModel model;
     private List<Order> orders;
+    private Places places;
 
     public Application(){
         super("Orders");
         orders = new ArrayList<Order>(Arrays.asList(ParseFromJSON.parseOrder()));
-        model = new OrderModel(orders);
+        places = ParseFromJSON.parsePlace();
+        model = new OrderModel(orders, true);
+
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         initComponent();
         setPreferredSize(new Dimension(400, 500));
@@ -34,11 +38,12 @@ public class Application extends JFrame {
         JPanel content = new JPanel();
         content.setLayout(new BorderLayout());
 
-        JPanel add = new AddPanel(orders, model);
-        JPanel show = new ShowPanel(model);
-        JPanel update = new UpdatePanel(orders, model, ((AddPanel) add).getPlaces());
+
+        JPanel add = new AddPanel(orders, model, places);
+        JPanel show = new ShowPanel(model, places);
+        JPanel update = new UpdatePanel(orders, model, places);
         JPanel delete = new DeletePanel(orders, model);
-        JPanel edit  = new AddPlaces(((AddPanel) add).getComboBox(), ((UpdatePanel) update).getComboBox(), ((AddPanel) add).getPlaces());
+        JPanel edit  = new AddPlaces(((AddPanel) add).getComboBox(), ((UpdatePanel) update).getComboBox(), places);
 
         tabbedPane.addTab("Add", add);
         tabbedPane.addTab("Show", show);

@@ -1,18 +1,49 @@
 package model;
 
 import javax.swing.table.AbstractTableModel;
-import java.util.ArrayList;
 import java.util.List;
 
 public class OrderModel extends AbstractTableModel {
 
-    List<Order> orders = new ArrayList<>();
+    private List<Order> orders;
+    private boolean editable;
 
-    public OrderModel(List<Order> orders) {
+    public OrderModel(List<Order> orders, boolean editable) {
         this.orders = orders;
+        this.editable = editable;
     }
-    public void addOrder(Order o){
-        orders.add(o);
+
+    @Override
+    public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
+
+            Order tmp = orders.get(rowIndex);
+            switch (columnIndex) {
+                case 1:
+                    tmp.getClient().setFirstName(aValue.toString());
+                    break;
+                case 2:
+                    tmp.getClient().setMiddleName(aValue.toString());
+                    break;
+                case 3:
+                    tmp.getClient().setLastName(aValue.toString());
+                    break;
+                case 4:
+                    tmp.getClient().setNumber(aValue.toString());
+                    break;
+                case 5:
+                    tmp.getPlace().setDestination(aValue.toString());
+                    break;
+                case 6:
+                    tmp.getPlace().setDate(aValue.toString());
+                    break;
+                case 7:
+                    tmp.getPlace().setCoutDays((int) aValue);
+                    break;
+            }
+    }
+
+    public void removeRow(int rowIndex) {
+        orders.remove(rowIndex);
         fireTableDataChanged();
     }
 
@@ -55,5 +86,13 @@ public class OrderModel extends AbstractTableModel {
             case 7: return "CountDay";
         }
         return super.getColumnName(column);
+    }
+
+    public List<Order> getOrders(){
+        return orders;
+    }
+    @Override
+    public boolean isCellEditable(int row, int column) {
+        return editable;
     }
 }
