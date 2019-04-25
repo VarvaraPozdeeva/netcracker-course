@@ -1,0 +1,2 @@
+serviceClass: com.netcracker.client.OrdersService
+path: E6BC8BA47E3CC858ADABC8D9D934AC59.gwt.rpc

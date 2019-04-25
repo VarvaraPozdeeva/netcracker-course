@@ -1,0 +1,2 @@
+serviceClass: com.netcracker.client.PlacesService
+path: CDA5904F43575991E564B65E79F7C4DF.gwt.rpc

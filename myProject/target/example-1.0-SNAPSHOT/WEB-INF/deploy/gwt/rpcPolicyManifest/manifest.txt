@@ -1,0 +1,4 @@
+# Module gwt
+# RPC service class, partial path of RPC policy file
+com.netcracker.client.PlacesService, CDA5904F43575991E564B65E79F7C4DF.gwt.rpc
+com.netcracker.client.OrdersService, E6BC8BA47E3CC858ADABC8D9D934AC59.gwt.rpc
